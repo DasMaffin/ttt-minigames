@@ -31,20 +31,12 @@ local function openMiniGameMenu()
     end
     local games = {
         {
-            name = "Snake",
-            callback = openPage("http://minigames.instinkt-servers.net/Snake/")
-        },
-        {
-            name = "Tetris",
-            callback = openPage("http://minigames.instinkt-servers.net/tetris/")
-        },
-        {
-            name = "Flappy Bird",
-            callback = openPage("http://minigames.instinkt-servers.net/floppybird/")
-        },
-        {
             name = "Tic-Tac-Toe",
             callback = Gruber.TicTacToe.callback
+        },
+        {
+            name = "Rock Paper Scissors",
+            callback = Maffin.RockPaperScissors.callback
         }
     }
 
